@@ -10,7 +10,7 @@ Installation isn't _too_ bad with pip, you should just need libevent for your pl
 
 
 1. First, install gevent, msgpack-python, pyzmq, kazoo as autodependencies
-    sudo pip install git+https://github.com/thecubic/zedswarm.git_
+    sudo pip install "git+https://github.com/thecubic/zedswarm.git"
 
 2. Install and start ZooKeeper
     * Mac OS X:
@@ -28,5 +28,3 @@ FEATURES
   - 'generator' means you want to have each response as soon as it's recieved instead of in batch
 - TODO: gevent everything
 
-
-.. _git+https://github.com/thecubic/zedswarm.git: git+https://github.com/thecubic/zedswarm.git
