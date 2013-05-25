@@ -10,13 +10,13 @@ Installation isn't _too_ bad with pip, you should just need libevent for your pl
 
 
 1. First, install gevent, msgpack-python, pyzmq, kazoo as autodependencies
-    sudo pip install git+https://github.com/thecubic/zedswarm.git
+    sudo pip install git+https://github.com/thecubic/zedswarm.git_
 
 2. Install and start ZooKeeper
     * Mac OS X:
-        brew install zookeeper
-        # set up /usr/local/etc/zookeeper/zoo.cfg, sample is usually okay
-        zkServer start
+        1. brew install zookeeper
+        2. set up /usr/local/etc/zookeeper/zoo.cfg, sample is usually okay
+        3. zkServer start
 
 FEATURES
 --------
@@ -29,3 +29,4 @@ FEATURES
 - TODO: gevent everything
 
 
+.. _git+https://github.com/thecubic/zedswarm.git: git+https://github.com/thecubic/zedswarm.git
