@@ -1,4 +1,9 @@
 zedswarm
 ========
 
-Implements a swarm pattern (M to N) RPC over ZeroMQ and ZooKeeper
+Swarm pattern (multiple masters, multiple workers) pattern with ZMQ (pyzmq) and ZooKeeper (kazoo)
+
+
+TODO: gevent everything
+
+
