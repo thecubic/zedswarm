@@ -24,7 +24,7 @@ RUNNING
   - usually "zkServer start" from somewhere
 
 2. Run included 'cats' test
-  - ususally tests/cats.py
+  - usually tests/cats.py
 
 FEATURES
 --------
